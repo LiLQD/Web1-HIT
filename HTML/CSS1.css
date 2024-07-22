@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 30%;
+    height: fit-content;
+    margin-top: 80px; /* Adjusted margin-top */
+    background-color: rgb(255, 243, 240); /* Lightened the background color */
+    padding: 25px; /* Increased padding */
+    border-radius: 15px; /* Increased border radius */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Adjusted box shadow */
+}
+
+.text {
+    margin-top: 15px; /* Increased margin-top */
+    color: #888; /* Darkened the text color */
+}
+
+.button_form > button {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Lightened the border color */
+    margin-top: 15px; /* Increased margin-top */
+    height: 36px; /* Increased button height */
+    color: #555; /* Adjusted button text color */
+}
+
+.button_form > button, .button_login:hover {
+    cursor: pointer;
+}
+
+.input-box > input {
+    background-color: rgb(245, 245, 245); /* Lightened input background */
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 10px; /* Adjusted padding */
+    margin-top: 15px; /* Increased margin-top */
+}
+
+.button_login {
+    padding: 12px 0; /* Adjusted padding */
+    background-color: rgb(240, 80, 34); /* Slightly different button color */
+    margin-top: 20px; /* Increased margin-top */
+    text-align: center;
+    border-radius: 8px; /* Increased border radius */
+}
+
+.button_login a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Adjusted font weight */
+}
